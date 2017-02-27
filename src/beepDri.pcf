@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Apr 04 13:52:05 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "lit<1>" LOCATE = SITE "M13" LEVEL 1;
+COMP "lit<2>" LOCATE = SITE "J12" LEVEL 1;
+COMP "lit<3>" LOCATE = SITE "F12" LEVEL 1;
+COMP "speaker" LOCATE = SITE "A3" LEVEL 1;
+COMP "dig<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "dig<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "dig<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "dig<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "dig<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "dig<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "dig<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "on_off" LOCATE = SITE "N3" LEVEL 1;
+COMP "CLK_50M" LOCATE = SITE "B8" LEVEL 1;
+COMP "pau_flag" LOCATE = SITE "E2" LEVEL 1;
+COMP "lit<0>" LOCATE = SITE "K14" LEVEL 1;
+NET "CLK_50M_BUFGP/IBUFG" BEL "CLK_50M_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

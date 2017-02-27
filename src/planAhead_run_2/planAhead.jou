@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Apr 03 20:36:01 2016
+# Process ID: 6928
+# Log file: E:/Courses/FPGA/LabEEfin/rhythmMaster/planAhead_run_2/planAhead.log
+# Journal file: E:/Courses/FPGA/LabEEfin/rhythmMaster/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/Courses/FPGA/LabEEfin/rhythmMaster/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin B8 [get_ports CLK_50M]
+endgroup
+set_property is_loc_fixed false [get_ports [list  CLK_50M]]
+set_property is_loc_fixed true [get_ports [list  CLK_50M]]
+set_property is_loc_fixed false [get_ports [list  CLK_50M]]
+set_property is_loc_fixed true [get_ports [list  CLK_50M]]
+startgroup
+set_property package_pin J3 [get_ports CLK_1]
+endgroup
+set_property is_loc_fixed false [get_ports [list  CLK_1]]
+set_property is_loc_fixed true [get_ports [list  CLK_1]]
+startgroup
+set_property package_pin B5 [get_ports CLK_5]
+endgroup
+set_property is_loc_fixed false [get_ports [list  CLK_5]]
+set_property is_loc_fixed true [get_ports [list  CLK_5]]
+startgroup
+set_property package_pin C6 [get_ports CLK_5M]
+endgroup
+startgroup
+set_property package_pin B6 [get_ports CLK_05]
+endgroup
+startgroup
+set_property package_pin C5 [get_ports CLK_50]
+endgroup
+startgroup
+set_property package_pin B7 [get_ports CLK_500]
+endgroup
+set_property is_loc_fixed false [get_ports [list  CLK_50]]
+set_property is_loc_fixed true [get_ports [list  CLK_50]]
+startgroup
+set_property package_pin B6 [get_ports CLK_05]
+endgroup
+set_property is_loc_fixed false [get_ports [list  CLK_1]]
+set_property package_pin "" [get_ports [list  CLK_1]]
+set_property package_pin "" [get_ports [list  CLK_5]]
+set_property package_pin "" [get_ports [list  CLK_05]]
+set_property package_pin "" [get_ports [list  CLK_5M]]
+set_property package_pin "" [get_ports [list  CLK_50]]
+set_property package_pin "" [get_ports [list  CLK_500]]
+set_property package_pin "" [get_ports [list  CLK_1]]
+set_property package_pin "" [get_ports [list  CLK_50]]
+startgroup
+set_property package_pin J3 [get_ports CLK_05]
+endgroup
+set_property package_pin "" [get_ports [list  CLK_50]]
+startgroup
+set_property package_pin B5 [get_ports CLK_1]
+endgroup
+startgroup
+set_property package_pin C6 [get_ports CLK_5]
+endgroup
+startgroup
+set_property package_pin B6 [get_ports CLK_50]
+endgroup
+startgroup
+set_property package_pin C5 [get_ports CLK_500]
+endgroup
+startgroup
+set_property package_pin B7 [get_ports CLK_5M]
+endgroup
+save_constraints

@@ -1,0 +1,24 @@
+
+
+NET "CLK_50M" LOC = B8;
+
+
+NET "speaker" LOC = A3;
+
+
+NET "on_off" LOC = N3;
+NET "pau_flag" LOC = E2;
+
+# PlanAhead Generated physical constraints 
+
+NET "lit[3]" LOC = F12;
+NET "lit[2]" LOC = J12;
+NET "lit[1]" LOC = M13;
+NET "lit[0]" LOC = K14;
+NET "dig[6]" LOC = L14;
+NET "dig[5]" LOC = H12;
+NET "dig[4]" LOC = N14;
+NET "dig[3]" LOC = N11;
+NET "dig[2]" LOC = P12;
+NET "dig[1]" LOC = L13;
+NET "dig[0]" LOC = M12;

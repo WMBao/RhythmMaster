@@ -1,0 +1,266 @@
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc freDiv.ucf -p xc3s100e-cp132-5 beepDri.ngc beepDri.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o beepDri_map.ncd beepDri.ngd beepDri.pcf 
+par -w -intstyle ise -ol high -t 1 beepDri_map.ncd beepDri.ncd beepDri.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml beepDri.twx beepDri.ncd -o beepDri.twr beepDri.pcf -ucf freDiv.ucf 
+bitgen -intstyle ise -f beepDri.ut beepDri.ncd 
+xst -intstyle ise -ifn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.xst" -ofn "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.syr" 

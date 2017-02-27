@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Apr 04 00:52:47 2016
+# Process ID: 1448
+# Log file: E:/Courses/FPGA/LabEEfin/rhythmMaster/planAhead_run_5/planAhead.log
+# Journal file: E:/Courses/FPGA/LabEEfin/rhythmMaster/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/Courses/FPGA/LabEEfin/rhythmMaster/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin F12 [get_ports {lit[3]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {lit[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {lit[1]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {lit[0]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {dig[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {dig[5]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {dig[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {dig[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {dig[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {dig[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {dig[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {dig[0]}]
+endgroup
+save_constraints

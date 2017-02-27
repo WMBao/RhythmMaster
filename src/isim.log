@@ -1,0 +1,56 @@
+ISim log file
+Running: E:\Courses\FPGA\LabEEfin\rhythmMaster\beepDri_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 89.  For instance beepDri/d1/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms1.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 90.  For instance beepDri/d2/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms2.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 91.  For instance beepDri/d3/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms3.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 92.  For instance beepDri/d4/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms4.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 89.  For instance beepDri/d1/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms1.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 90.  For instance beepDri/d2/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms2.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 91.  For instance beepDri/d3/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms3.
+WARNING: File "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 92.  For instance beepDri/d4/, width 7 of formal port s_to_d is not equal to width 1 of actual signal syms4.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+# run all
+# run all
+# run all
+# run all
+# run all
+# run all
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run all
+# step
+# step
+# step
+# step
+# step
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+# run all

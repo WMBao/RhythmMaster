@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Courses\FPGA\LabEEfin\rhythmMaster\freDiv.ncd
+OUTFILE=E:\Courses\FPGA\LabEEfin\rhythmMaster\freDiv.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=E:\Courses\FPGA\LabEEfin\rhythmMaster
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

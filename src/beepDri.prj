@@ -1,0 +1,3 @@
+verilog work "seg_sym_sub.v"
+verilog work "freDiv.v"
+verilog work "beepDri.v"

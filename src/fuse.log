@@ -1,0 +1,24 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri_isim_beh.exe" -prj "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri_beh.prj" "work.beepDri" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Courses/FPGA/LabEEfin/rhythmMaster/seg_sym_sub.v" into library work
+Analyzing Verilog file "E:/Courses/FPGA/LabEEfin/rhythmMaster/freDiv.v" into library work
+Analyzing Verilog file "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 90: Size mismatch in connection of port <s_to_d>. Formal port size is 7-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 91: Size mismatch in connection of port <s_to_d>. Formal port size is 7-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 92: Size mismatch in connection of port <s_to_d>. Formal port size is 7-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri.v" Line 89: Size mismatch in connection of port <s_to_d>. Formal port size is 7-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module freDiv
+Compiling module seg_sym_sub
+Compiling module beepDri
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 4 Verilog Units
+Built simulation executable E:/Courses/FPGA/LabEEfin/rhythmMaster/beepDri_isim_beh.exe
+Fuse Memory Usage: 28728 KB
+Fuse CPU Usage: 421 ms

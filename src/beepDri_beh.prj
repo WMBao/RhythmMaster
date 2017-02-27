@@ -1,0 +1,4 @@
+verilog work "seg_sym_sub.v"
+verilog work "freDiv.v"
+verilog work "beepDri.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
