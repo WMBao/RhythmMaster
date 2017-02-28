@@ -6,14 +6,14 @@
 
 This project is aimed to design an interactive music game called *“Rhythm Master”*, which is inspired by a popular smartphone game of the same name on Basys2 platform, utilizing the buttons, switches and 7-segment LEDs on board with Xilinx IDE.
 
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/1.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/1.png)
 
 # How to play
 The DEMO video is uploaded online (haven't edited yet). (URL: [https://s3-ap-northeast-1.amazonaws.com/wmbao-fpga/5140219191_RhythmMaster_DEMO.wmv](https://s3-ap-northeast-1.amazonaws.com/wmbao-fpga/5140219191_RhythmMaster_DEMO.wmv "RhythmMaster Demo Video (haven't edited yet)"))
 
 After the player turns on the “power” switch, the game begins. The beep starts to play the background music and arbitrary digit on board is going to become active, which means it’ll be lit one-segment-by-one-segment, as is shown in Fig. 2 below.
 
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/2.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/2.png)
 
 (Figure 2. The sequence of segments to be lit when active)
 
@@ -21,11 +21,11 @@ The player should press the corresponding button below exactly when the 7th segm
 
 When the music ends, the score is displayed on the 4 digits LEDs, in form of “S(-)XX”, as is illustrated in Fig. 3 and Fig. 4 below. The game is actually a little tricky, negative score is also possible.
 
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/3.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/3.png)
 
 (Figure 3. Score: +08) 
 
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/4.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/4.png)
 
 (Figure 4. Score: -07)
 
@@ -35,7 +35,7 @@ During the game, the player can pause or reset whenever he wants to.
 ## 3.1 Hardware Interface
 The following figure shows all the components on board used in this project with their function briefly explained below.
 
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/5.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/5.png)
 
 (Figure 5. The components used on board)
 
@@ -48,7 +48,7 @@ The following figure shows all the components on board used in this project with
 7. 4 LEDs (signals showing whether the corresponding button is pushed)
 8. Beep pin (B5) –connected to the additional hardware a non-source beep (Fig. 6).
  
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/6.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/6.png)
 
 (Figure 6. The non-source beep – SFN3040 - used for background music)
 
@@ -63,13 +63,13 @@ I have divided the whole design into six modules.
 
 The top-level schematic of the entire program is shown in Fig. 7 below.
 
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/7.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/7.png)
 
 (Figure 7. Top-level schematic of “Rhythm Master”)
 
 The RTL schematic is illustrated in Fig. 8 below.
 
-![Missing image](https://github.com/WMBao/TraCAR/blob/master/website/images/8.png)
+![Missing image](https://github.com/WMBao/TraCAR/blob/master/images/8.png)
 
 (Figure 8. The RTL schematic for “Rhythm Master”)
 
